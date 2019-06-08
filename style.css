@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    position: relative;
+    margin: 0 auto;
+}
+
+.page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 56px;
+    color: mistyrose;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.page01 {
+    /*z-index: 15;*/
+    background-image: url('https://images.pexels.com/photos/1133957/pexels-photo-1133957.jpeg?cs=srgb&dl=beautiful-beautiful-flowers-bright-1133957.jpg&fm=jpg');
+}
+
+.page02 {
+    background-image: url('https://images.pexels.com/photos/860564/pexels-photo-860564.jpeg?cs=srgb&dl=beautiful-beautiful-flowers-bloom-860564.jpg&fm=jpg');
+    /*z-index: 14;*/
+}
+
+.page03 {
+    background-image: url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/pink-spring-beautiful-flowers-guido-montanes-castillo.jpg');
+    /*z-index: 13;*/
+}
+
+.page04 {
+    background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/colorful-of-dahlia-pink-flower-in-beautiful-garden-royalty-free-image-825886130-1554743243.jpg');
+    /*z-index: 12;*/
+}
+
+.page05 {
+    background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/spring-quotes-1551896399.jpg');
+    /*z-index: 11;*/
+}
+
+.page06 {
+    background-image: url('https://windhorsetour.com/sites/default/files/peach-flower-longquan-Chengdu-Sichuan-China_0.jpg');
+    /*z-index: 10;*/
+}
+
